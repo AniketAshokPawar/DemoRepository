@@ -16,10 +16,18 @@ check the status => Is it files are in .git or not > If not, initialised it by c
 ****** Stage and Unstage process ******
 
 staging: add --a or add . > git status
-Unstaging: git restore --staged file_name 
+Unstaging: git restore --staged file_name
+ 
 
 ****** Restoring file content if accidently deleted ******
+
  git checkout -- file_name
+
+
+****** Shows Branch is merged or not ******
+
+git branch --merged
+git branch --no-merged
 
 
 ****** Changing Branch ******
